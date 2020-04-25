@@ -23,7 +23,7 @@ import unKnown from './icons/weather.svg'
 //900 is unknown
 const api = {
 
-  key: "7d62785c8819466eb39454a1c613ae2d",
+  key: process.env.REACT_APP_WEATHER_KEY,
   URL: "http://api.weatherbit.io/v2.0/current"
 }
 
